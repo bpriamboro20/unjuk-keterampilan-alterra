@@ -1,9 +1,12 @@
 <script setup>
 import { ref } from "vue";
+import image8 from "@/assets/image/projects/project8.jpg";
+import image9 from "@/assets/image/projects/project9.jpg";
+import image10 from "@/assets/image/projects/project10.jpg";
 
 const projects = ref([
   {
-    img: "../../src/assets/image/projects/project8.jpg",
+    img: image8,
     title: "Decision Support System using the MAUT Method",
     tech: `
             <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="26" height="26" viewBox="0 0 48 48">
@@ -60,7 +63,7 @@ const projects = ref([
     description: "A decision support system designed to facilitate optimal supplier assessment based on predefined criteria.",
   },
   {
-    img: "../../src/assets/image/projects/project9.jpg",
+    img: image9,
     title: "Decision Support System using the SAW Method",
     tech: ` <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="26" height="26" viewBox="0 0 48 48">
               <path fill="#F44336" d="M23.65,24.898c-0.998-1.609-1.722-2.943-2.725-5.455C19.229,15.2,31.24,11.366,26.37,3.999c2.111,5.089-7.577,8.235-8.477,12.473C17.07,20.37,23.645,24.898,23.65,24.898z"></path>
@@ -116,7 +119,7 @@ const projects = ref([
     description: "A decision support system designed to facilitate optimal employee assessment based on predetermined criteria.",
   },
   {
-    img: "../../src/assets/image/projects/project10.jpg",
+    img: image10,
     title: "System Information Service PMB Bidan Lena",
     tech: `<svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="26" height="26" viewBox="0 0 48 48">
               <path fill="#F44336" d="M23.65,24.898c-0.998-1.609-1.722-2.943-2.725-5.455C19.229,15.2,31.24,11.366,26.37,3.999c2.111,5.089-7.577,8.235-8.477,12.473C17.07,20.37,23.645,24.898,23.65,24.898z"></path>

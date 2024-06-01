@@ -1,17 +1,21 @@
 <script setup>
 import { reactive } from "vue";
+import image from "@/assets/image/projects/project.jpg";
+import image1 from "@/assets/image/projects/project1.jpg";
+import image2 from "@/assets/image/projects/project2.jpg";
+import image4 from "@/assets/image/projects/project4.jpg";
 const carouselHero = reactive([
   {
-    url: "../../src/assets/image/projects/project.jpg",
+    url: image,
   },
   {
-    url: "../../src/assets/image/projects/project1.jpg",
+    url: image1,
   },
   {
-    url: "../../src/assets/image/projects/project2.jpg",
+    url: image2,
   },
   {
-    url: "../../src/assets/image/projects/project4.jpg",
+    url: image4,
   },
 ]);
 </script>

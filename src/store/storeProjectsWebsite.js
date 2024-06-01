@@ -1,10 +1,17 @@
 import { ref } from "vue";
 import { defineStore } from "pinia";
+import image from "@/assets/image/projects/project.jpg";
+import image1 from "@/assets/image/projects/project1.jpg";
+import image2 from "@/assets/image/projects/project2.jpg";
+import image4 from "@/assets/image/projects/project4.jpg";
+import image5 from "@/assets/image/projects/project5.jpg";
+import image6 from "@/assets/image/projects/project6.jpg";
+import image7 from "@/assets/image/projects/project7.jpg";
 
 export const useProjectsWebsiteStore = defineStore("projectsWebsite", () => {
   const projects = ref([
     {
-      img: "../../src/assets/image/projects/project1.jpg",
+      img: image1,
       title: "BR Architects",
       tech: `<svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="25" height="25" viewBox="0 0 48 48">
                 <path fill="#E65100" d="M41,5H7l3,34l14,4l14-4L41,5L41,5z"></path>
@@ -25,7 +32,7 @@ export const useProjectsWebsiteStore = defineStore("projectsWebsite", () => {
       description: "br architect is a website landing page that I recreated/rebuilt. The inspiration for this design came from w3school for learning purposes.",
     },
     {
-      img: "../../src/assets/image/projects/project2.jpg",
+      img: image2,
       title: "Mount Everest",
       tech: `<svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="25" height="25" viewBox="0 0 48 48">
                 <path fill="#E65100" d="M41,5H7l3,34l14,4l14-4L41,5L41,5z"></path>
@@ -46,7 +53,7 @@ export const useProjectsWebsiteStore = defineStore("projectsWebsite", () => {
       description: "Mount Everest is a landing page website that I created to learn HTML and CSS practices.",
     },
     {
-      img: "../../src/assets/image/projects/project4.jpg",
+      img: image4,
       title: "Make Better Coffee",
       tech: `<svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="25" height="25" viewBox="0 0 48 48">
                 <path fill="#E65100" d="M41,5H7l3,34l14,4l14-4L41,5L41,5z"></path>
@@ -67,7 +74,7 @@ export const useProjectsWebsiteStore = defineStore("projectsWebsite", () => {
       description: "Make Better Coffee is a landing page of a website that I rebuilt. Honestly, I forgot the exact source of my inspiration, but it came from either W3Schools or YouTube for learning purposes.",
     },
     {
-      img: "../../src/assets/image/projects/project5.jpg",
+      img: image5,
       title: "My Blog",
       tech: `<svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="25" height="25" viewBox="0 0 48 48">
                 <path fill="#E65100" d="M41,5H7l3,34l14,4l14-4L41,5L41,5z"></path>
@@ -88,7 +95,7 @@ export const useProjectsWebsiteStore = defineStore("projectsWebsite", () => {
       description: "My Blog is a website landing page that I recreated/rebuilt. The inspiration for this design came from w3school for learning purposes.",
     },
     {
-      img: "../../src/assets/image/projects/project6.jpg",
+      img: image6,
       title: "Landing Page Portofolio",
       tech: `<svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="25" height="25" viewBox="0 0 48 48">
                 <path fill="#E65100" d="M41,5H7l3,34l14,4l14-4L41,5L41,5z"></path>
@@ -113,7 +120,7 @@ export const useProjectsWebsiteStore = defineStore("projectsWebsite", () => {
       description: "The landing page portfolio was created while I was studying and practicing material from the Unpas YouTube channel.",
     },
     {
-      img: "../../src/assets/image/projects/project7.jpg",
+      img: image7,
       title: "Portal News",
       tech: `<svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="25" height="25" viewBox="0 0 48 48">
                 <path fill="#E65100" d="M41,5H7l3,34l14,4l14-4L41,5L41,5z"></path>
@@ -136,7 +143,7 @@ export const useProjectsWebsiteStore = defineStore("projectsWebsite", () => {
       description: "The news portal is a website built for practical learning of the JavaScript framework Vue.js on the JustKoding YouTube channel. This website has CRUD and authentication features.",
     },
     {
-      img: "../../src/assets/image/projects/project.jpg",
+      img: image,
       title: "Coffeeshop",
       tech: `<svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="25" height="25" viewBox="0 0 48 48">
                 <path fill="#E65100" d="M41,5H7l3,34l14,4l14-4L41,5L41,5z"></path>
