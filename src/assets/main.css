@@ -1,0 +1,72 @@
+* {
+  padding: 0;
+  margin: 0;
+  /* font-family: "Poppins", sans-serif; */
+  /* font-family: "Quicksand", sans-serif; */
+  font-family: "Lexend", sans-serif;
+  box-sizing: border-box;
+}
+
+/* custom.css */
+.bg-custom-color {
+  /* background-color: #00e2b5 !important; */
+  /* background-color: #00e28c !important; */
+  /* background-color: #00e282 !important; */
+  background-color: #00e664 !important;
+}
+
+.text-custom-color {
+  /* color: #00e2b5 !important; */
+  color: #00e664 !important;
+}
+
+.text-color-whitesmoke {
+  color: whitesmoke;
+}
+
+.cursor-pointer {
+  cursor: pointer;
+}
+
+.hover-navbar:hover {
+  color: white;
+}
+
+.text-justify {
+  text-align: justify;
+}
+
+/* Elemen dasar dengan transisi */
+.icon-hover {
+  transition: transform 0.6s; /* Menerapkan transisi untuk transformasi */
+}
+
+/* Efek saat elemen di-hover */
+.icon-hover:hover {
+  transform: translateY(-12px); /* Mengubah posisi Y elemen */
+}
+
+.card-point {
+  transition: transform 0.5s;
+  transform-origin: center;
+}
+
+.card-point:hover {
+  transform: scale(1.07);
+}
+
+.w-30 {
+  width: 30%;
+}
+
+.w-90 {
+  width: 90%;
+}
+
+.logo-name {
+  font-size: 2.5rem; /* Default size, equivalent to fs-3 */
+}
+
+.hover-navbar {
+  font-size: 1.25rem;
+}
