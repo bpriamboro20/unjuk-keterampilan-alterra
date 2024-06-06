@@ -65,5 +65,8 @@ const carouselHero = reactive([
   .container-carousel {
     width: 100%;
   }
+  .container-carousel img {
+    height: 40vh;
+  }
 }
 </style>
